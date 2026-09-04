@@ -4,8 +4,8 @@
 
 def main():
     name = input("Enter your name: ")
-    age = input("Enter your age: ")
-    height = input("Enter your height in cm: ")
+    age = input(int("Enter your age: "))
+    height = input(float(("Enter your height in cm: "))
     # TODO: build and print the message
     pass
 
