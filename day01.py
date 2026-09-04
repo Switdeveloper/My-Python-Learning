@@ -6,8 +6,8 @@
 def main():
     # Write your solution here
     print("Hello, World!")
-    print("Welcome to python!")
-    pass
+    print("Welcome to Python!")
+    
 
 if __name__ == "__main__":
     main()
