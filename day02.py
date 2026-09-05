@@ -8,6 +8,7 @@ def main():
     age=int(input("what your age? "))
     height=float(input("what your height? "))
     coding=bool(input(" you love coding y/n? "))
+    print(f"Hello {name}! You are {age}years old, {height} feet tall, and you like encoding {coding}")
 
 
     # TODO: convert age to int, height to float, coding preference to bool
