@@ -1,14 +1,18 @@
-# TODO: Read the user's age from input
-
-
-# TODO: Print: You are <age> years old!
+# Ask the user for their personal information
+# Store each answer in a variable with the correct data type
+# Print a friendly summary using an f-string
 
 def main():
-    age = input("Enter your age: ")
-    print(f"You are {age} years old!")
-    
-    # TODO: print the greeting using the age variable
+    # TODO: collect name, age, height, coding preference
+    name=input("what your name? ")
+    age=int(input("what your age? "))
+    height=float(input("what your height? "))
+    coding=bool(input(" you love coding y/n? "))
+
+
+    # TODO: convert age to int, height to float, coding preference to bool
+    # TODO: print the summary
     pass
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
